@@ -1,0 +1,27 @@
+# General
+.DS_Store
+node_modules/
+.env
+dist/
+build/
+*.log
+*.sqlite3
+
+# Python (Backend)
+*.pyc
+__pycache__/
+db.sqlite3
+migrations/
+
+# React (Frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+
+# Editor & IDE settings
+.vscode/
+.idea/
+*.swp
+*.iml
